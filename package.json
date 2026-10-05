@@ -1,0 +1,14 @@
+{
+  "name": "cold-chain-allocation",
+  "version": "1.0.0",
+  "description": "冷链药品调拨核对接口 - 批次占用/在途对账/温控冻结/容量排队/期初回填",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0"
+  }
+}
